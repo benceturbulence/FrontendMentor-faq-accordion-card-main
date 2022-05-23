@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel = "stylesheet" href ="index.css">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+
+
+<body>
+  <main class = "card">
+    <section class = "header">
+
+    <img class = "mobile" src="images/illustration-woman-online-mobile.svg" alt="a women looking at a computer" class="src">
+    <img class = "mobile mobile_shadow" src = "images/bg-pattern-mobile.svg" aét = "pattern" />
+    <img class = "header_img desktop" src="images/illustration-woman-online-mobile.svg" alt="a women looking at a computer" />  
+  </section>
+    <div class="card__container">
+
+      <h1>FAQ</h1>
+      <div class="accordion" id = "accordion">
+          <div>
+            <button class="accordion__button" aria-label="How many team members can I invite?">How many team members can I invite?<img class = "button__arrow" src="images/icon-arrow-down.svg" alt ="arrow down"/></button>
+            <div class="accordion__content">
+              <p class="content__text">
+                You can invite up to 2 additional users on the Free plan. There is no limit on
+                team members for the Premium plan.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <button class="accordion__button" aria-label="What is the maximum file upload size?">What is the maximum file upload size?<img class = "button__arrow" src="images/icon-arrow-down.svg" alt ="arrow down"/></button>
+            <div class="accordion__content">
+              <p class="content__text">
+                No more than 2GB. All files in your account must fit your allotted storage space.
+              </p>
+            </div>
+          </div>
+
+          <button class="accordion__button" aria-label="How do I reset my password?">How do I reset my password?<img class = "button__arrow" src="images/icon-arrow-down.svg" alt ="arrow down"/></button>
+          <div class="accordion__content">
+            <p class="content__text">
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+            </p>
+          </div>
+
+          <div>
+            <button class="accordion__button" aria-label="  Can I cancel my subscription?">  Can I cancel my subscription?<img class = "button__arrow" src="images/icon-arrow-down.svg" alt ="arrow down"/></button>
+            <div class="accordion__content">
+              <p class="content__text">
+                Yes! Send us a message and we'll process your request no questions asked.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <button class="accordion__button" aria-label="Do you provide additional support?">Do you provide additional support?<img class = "button__arrow" src="images/icon-arrow-down.svg" alt ="arrow down"/></button>
+            <div class="accordion__content">
+              <p class="content__text">
+                Chat and email support is available 24/7. Phone lines are open during normal business hours.
+              </p>
+            </div>
+          </div>
+      </div>
+
+
+    </div>
+  </main>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/benceturbulence">benceturbulence</a>.
+  </div>
+  <script src = "index.js"></script>
+</body>
+</html>
